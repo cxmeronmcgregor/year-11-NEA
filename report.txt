@@ -1,10 +1,11 @@
 !! REPORT !!
 
--- Section 1 --
+----------------------------------------------------------------Section 1-----------------------------------------------------------------
 What are you going to do?
   For my NEA - Non Exam Assessment - we are making a dice game. It must meet the objectives written below.
   
--- Section 2 --
+----------------------------------------------------------------Section 2-----------------------------------------------------------------
+
 Objectives (END OR GOAL):
   1. Allows two players to enter their details, which are then authenticated to ensure that they are authorised players.  
 
@@ -33,6 +34,7 @@ Success criteria (MUST BE MEASURABLE)
   ¦ Complete the NEA on time to a high standard.
   ¦
   
--- Section 3 --
+----------------------------------------------------------------Section 3---------------------------------------------------------------
+
 How will you do it? (What resources do you need? Talk about the process.)
   Answer here.
