@@ -1,0 +1,16 @@
+!! REPORT !!
+
+-- Section 1 --
+What are you going to do?
+  Answer here.
+  
+-- Section 2 --
+Objectives:
+  Answer here.
+  
+Success criteria:
+  Answer here.
+  
+-- Section 3 --
+How will you do it? (What resources do you need? Talk about the process.)
+  Answer here.
