@@ -2,14 +2,36 @@
 
 -- Section 1 --
 What are you going to do?
-  Answer here.
+  For my NEA - Non Exam Assessment - we are making a dice game. It must meet the objectives written below.
   
 -- Section 2 --
-Objectives:
-  Answer here.
+Objectives (END OR GOAL):
+  1. Allows two players to enter their details, which are then authenticated to ensure that they are authorised players.  
+
+  2. Allows each player to roll two 6-sided dice.  
+
+  3. Calculates and outputs the points for each round and each player’s total score.  
+
+  4. Allows the players to play 5 rounds.  
+
+  5. If both players have the same score after 5 rounds, allows each player to roll 1 die each until someone wins.  
+
+  6. Outputs who has won at the end of the 5 rounds.  
+
+  7. Stores the winner’s score, and their name, in an external file.  
+
+  8. Displays the score and player name of the top 5 winning scores from the external file. 
+
+Should be written in Python. 
+
+Where appropriate, input from the user should be validated. 
+
+Only authorised players are allowed to play the game. 
   
-Success criteria:
-  Answer here.
+Success criteria (MUST BE MEASURABLE)
+  ¦ Meet the target audience.
+  ¦ Complete the NEA on time to a high standard.
+  ¦
   
 -- Section 3 --
 How will you do it? (What resources do you need? Talk about the process.)
