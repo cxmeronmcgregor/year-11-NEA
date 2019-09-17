@@ -1,4 +1,5 @@
 Phases      Tasks
+----------------------------------------------------
 Analysis    Gather user requirements and constraints
             Define success criteria and objectives
             Create a report
@@ -19,3 +20,7 @@ Impleme-    Use project plan to monitor project
 Evaluation  Create user documentation
             Final phase review
             Final evaluation
+
+Analysis --> Design --> Implementation --> Testing --> Evaluation REPEAT
+
+
