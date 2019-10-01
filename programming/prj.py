@@ -22,13 +22,51 @@
 # 7. Stores the winner’s score, and their name, in an external file.
 # 8. Displays the score and player name of the top 5 winning scores from the external file.
 
+## SETUP ##
+import keyboard
 import time
 import random
+# import mysql.connector
+## SQL ##
+# mydb = mysql.connector.connect(
+
+    # host="localhost",
+    # user="NEA",
+    # passwd="NEA-Admin"
+# )
+# print(mydb)
 
 print("Welcome to the Dice Game")
-time.sleep(1)
-print("Developed & Designed: Cameron McGregor")
-time.sleep(1)
-print("Find the source code: https://github.com/cxomeronmcgregor/year-11-NEA")
-print("---------------------------------------------------------------------")
 time.sleep(2)
+
+## AUTHENTICATION - work embedded here. ##
+
+authentication_user=input("Please enter your username: ")
+if authentication_user == "User":
+    print("Correct.")
+    time.sleep(1)
+
+    authentication_pw=input("Please enter your password: ")
+
+    if authentication_pw == "Password":
+        print("Correct. Giving you access...")
+        ## embedded - until i figure out something better ##
+        score_p1=0
+        score_p2=0
+
+        print("!! Press Y to continue !!")
+
+        time.sleep(1)
+
+        while True:
+            try:
+                if keyboard.is_pressed('y'):
+                    print("Key Press Detected")
+            else:
+                print("No Input Detected")
+            except:
+                break
+if authentication_pw != "Password":
+        print("Incorrect.")
+if authentication_user != "User":
+    print("Incorrect. Try again.")
