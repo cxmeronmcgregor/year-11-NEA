@@ -62,10 +62,21 @@ if authentication_user == "User":
             try:
                 if keyboard.is_pressed('y'):
                     print("Key Press Detected")
+
+                    roll1=0
+                    roll1=input("Type 1 to roll your 6 sided dice: ")
+                    roll2=0
+                    roll2=input("Type 2 to roll your 6 sided dice: ")
+
+                    
+
+
             else:
                 print("No Input Detected")
             except:
                 break
+
+
 if authentication_pw != "Password":
         print("Incorrect.")
 if authentication_user != "User":
