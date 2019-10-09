@@ -1,5 +1,4 @@
 ## Import
-
 import time
 import sys
 
@@ -16,8 +15,6 @@ while authuscounter < 3:
             if authinputpw != "DesignatedPassword":
                 authpwcounter = authpwcounter + 1
             else:
-                authpwcounter = authpwcounter + 3
-                print("Variable complete.")
-
+                print(authpwcounter)
 else:
-    print("You have been locked out...")
+    print("You have been locked out after too many attempts.")
