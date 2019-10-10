@@ -14,7 +14,9 @@ while authuscounter < 3:
             authinputpw=input("Please input your password: ")
             if authinputpw != "DesignatedPassword":
                 authpwcounter = authpwcounter + 1
-            else:
-                print(authpwcounter)
+            if authinputpw == "DesignatedPassword":
+                break
+
+
 else:
     print("You have been locked out after too many attempts.")
