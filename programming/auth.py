@@ -1,7 +1,6 @@
 ## Import
 import time
 import sys
-
 #Username and pwd defined in AUTH.md
 authuscounter = 0
 while authuscounter < 3:
@@ -22,19 +21,14 @@ while authuscounter < 3:
                 print()
 else:
     print("You have been locked out after too many username attempts.")
-    sys.exit()
-
-sys.exit()
-
 authpwcounter = 0
 while authpwcounter < 3:
     authinputpw=input("Please input your password: ")
     if authinputpw == "":
         print("No input detected.")
-    if authinputpw != "DesignatedPassword":
+    elif authinputpw != "DesignatedPassword":
         authpwcounter = authpwcounter + 1
-    if authinputpw == "DesignatedPassword":
-        print()
+    elif authinputpw == "DesignatedPassword":
+        print("Success! Logging in...")
 else:
     print("You have been locked out after too many password attempts.")
-    sys.exit()
