@@ -1,10 +1,10 @@
-#import sys
-#import time
+import sys
+import time
 
-#dicewinner= "player_2"
+dicewinner = "Player 2"
 
-#f = open ("winner.txt", "w")
+f = open ("winner.txt", "w")
+f = open ("winner.txt", "a")
+f.write(dicewinner)
 
-#f = open("winner.txt", "a")
-#f.write("The winner of this Dice Game was {}")format.(player_2)
-#f.close()
+f.close()
