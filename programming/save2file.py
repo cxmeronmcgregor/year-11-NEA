@@ -1,6 +1,3 @@
-import sys
-import time
-
 dicewinner = "Player 2"
 
 f = open ("winner.txt", "w")
