@@ -1,6 +1,5 @@
 # Setup
 import random
-import sys
 import time
 
 # Code
