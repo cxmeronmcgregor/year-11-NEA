@@ -17,4 +17,3 @@ for i in range(len(names)):
     print(names[i])
 
 if find == names[i][0]
-g
