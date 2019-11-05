@@ -2,14 +2,12 @@
 import random
 import time
 import sys
-import os
 
 # Code
 print("Welcome to the Dice Game")
 print("------------------------")
 
 time.sleep(3)
-counter = 5
 while True:
     authinputuser=input("Please input your username: ")
 
