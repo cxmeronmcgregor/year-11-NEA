@@ -3,12 +3,9 @@ import random
 import time
 import sys
 
-                                                                    
-
 # Code
 print("Welcome to the Dice Game")
 print("------------------------")
-
 time.sleep(3)
 while True:
     authinputuser=input("Please input your username: ")
@@ -20,9 +17,7 @@ while True:
         sys.exit()
     if authinputpw == "DesignatedPassword":
         break
-
 print("Dice Game Starting...")
-
 time.sleep(1)
 
 def dice_rollp1(): #Make a new subroutine, 'Dice Roll'
@@ -100,4 +95,3 @@ def dice_rollp2(): #Make a new subroutine, 'Dice Roll'
     print("Your total is",total2)
 
 dice_rollp2()
-
