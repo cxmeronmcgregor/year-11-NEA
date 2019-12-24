@@ -135,13 +135,27 @@ def dice_rollp2(): #Make a new subroutine, 'Dice Roll'
 
 dice_rollp2()
 
-## TASK 7
+## TASK 5 & 7
 
 if total > total2:
     print("Dice Winner: PLAYER 1")
+    dicewinner = "Player 1"
+
+    f = open ("winner.txt", "w")
+    f = open ("winner.txt", "a")
+
+    f.write(dicewinner)
+    f.close()
 
 if total2 < total:
     print("Dice Winner: PLAYER 2")
+    dicewinner = "Player 2"
+
+    f = open ("winner.txt", "w")
+    f = open ("winner.txt", "a")
+
+    f.write(dicewinner)
+    f.close()
 
 if total == total2:
     print("Redraw...")
